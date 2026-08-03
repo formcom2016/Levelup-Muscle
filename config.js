@@ -10,5 +10,5 @@
  * API_URL: "https://script.google.com/macros/s/AKfycb.../exec"
  */
 var CONFIG = {
-  API_URL: "",
+  API_URL: "https://script.google.com/macros/s/AKfycbzQBWu0A_U6CSkmvo__SeS5Qcxqm0022SJUu95QvMzkuEENQmOQ_QrkmGfV0t-jpjWZ/exec",
 };
