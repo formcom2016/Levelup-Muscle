@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Level Up — Musculation</title>
+<meta name="theme-color" content="#0b0d17" />
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="toast-container"></div>
+
+  <header id="topbar">
+    <div class="topbar-inner">
+      <span class="brand">⬆️ LEVEL UP</span>
+      <span id="topbar-mode" class="mode-pill"></span>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <nav id="bottomnav" class="hidden">
+    <button class="nav-btn" data-screen="cockpit">
+      <span class="nav-icon">🏠</span><span>Cockpit</span>
+    </button>
+    <button class="nav-btn" data-screen="seance">
+      <span class="nav-icon">⚔️</span><span>Séance</span>
+    </button>
+    <button class="nav-btn" data-screen="stats">
+      <span class="nav-icon">📊</span><span>Stats</span>
+    </button>
+    <button class="nav-btn" data-screen="historique">
+      <span class="nav-icon">📖</span><span>Historique</span>
+    </button>
+    <button class="nav-btn" data-screen="profil">
+      <span class="nav-icon">👤</span><span>Profil</span>
+    </button>
+  </nav>
+
+  <script src="js/engine.js"></script>
+  <script src="js/exercises-library.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/local-store.js"></script>
+  <script src="js/api-remote.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

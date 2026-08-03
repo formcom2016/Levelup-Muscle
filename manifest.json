@@ -1,0 +1,10 @@
+{
+  "name": "Level Up — Musculation",
+  "short_name": "Level Up",
+  "description": "Carnet de musculation digital gamifié façon RPG.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0d17",
+  "theme_color": "#0b0d17",
+  "orientation": "portrait"
+}
